@@ -2,24 +2,64 @@
 <html>
 <head>
 <title>OUR BANK</title>
+<style>
+a:link{
+color:red;
+}
+a:visited{
+color:green;
+}
+a:hover{
+color:magenta;
+}
+a:active{
+color:blue;
+}
+.parent {
+  border: 1px solid white;
+  margin-top: 114px;
+  padding: 2rem 2rem;
+  
+}
+.child {
+  display: inline-block;
+  
+  padding: 1rem 1rem;
+  
+}
+.mar{
+background-color:white;
+color:red;
+}
+body {
+  background-image: url('bank.jpg');
+background-repeat: no-repeat;
+background-attachment: fixed;
+  background-size: 100% 100%;
+}
+</style>
+
 
 </head>
 <body>
-<h1 align="center">Welcome to Our Bank</h1>
+<h1 align="center" style="color:DodgerBlue;">Welcome to Our Bank</h1>
 <hr>
-<div align="center">
-<img src="bank.jpg"/>
-</div>
-
-<h3><a href="./home.html">Home</a></h3>
+<div class="parent">
+<div class="child">
+<h3><a href="index.html">Home</a></h3>
 <h3><a href="./about.html">About Us</a> </h3>
 <h3><a href="./services.html">Services</a></h3>
 <h3><a href="./netbanking.html">Net Banking</a> </h3>
 <h3><a href="./contract.html">Contact Us</a><br></h3>
+</div>
 
-<hr>
+
+</div >
+<div class="mar">
+<hr style="margin-top:10px;">
 <marquee>OUR BANK </marquee>
 <hr>
+</div>
 
 
 
